@@ -1,0 +1,83 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": ["@typescript-eslint", "prettier"],
+    "rules": {
+        "camelcase": "off",
+        "curly": ["warn", "all"],
+        "eqeqeq": ["warn", "smart"],
+        "lines-between-class-members": ["warn", "always", { "exceptAfterSingleLine": true }],
+        "no-await-in-loop": "error",
+        "no-empty-function": "off",
+        "no-console": ["warn", { "allow": ["error"] }],
+        "no-nested-ternary": "warn",
+        "no-use-before-define": "off",
+        "padding-line-between-statements": [
+            "warn",
+            { "blankLine": "always", "prev": "block-like", "next": "*" },
+            { "blankLine": "always", "prev": "*", "next": "return" }
+        ],
+        "prettier/prettier": [
+            "warn",
+            {
+                "endOfLine": "auto",
+                "tabWidth": 4,
+                "useTabs": false
+            }
+        ],
+        "require-await": "error",
+        "@typescript-eslint/consistent-type-imports": "warn",
+        "@typescript-eslint/explicit-function-return-type": "warn",
+        "@typescript-eslint/explicit-member-accessibility": ["warn", { "accessibility": "no-public" }],
+        "@typescript-eslint/member-ordering": [
+            "warn",
+            {
+                "classes": [
+                    "public-decorated-field",
+                    "private-decorated-field",
+                    "public-field",
+                    "private-field",
+                    "get",
+                    "constructor",
+                    "public-method",
+                    "private-method"
+                ]
+            }
+        ],
+        "@typescript-eslint/naming-convention": [
+            "warn",
+            {
+                "selector": "default",
+                "format": ["camelCase"]
+            },
+
+            {
+                "selector": "variable",
+                "format": ["camelCase", "UPPER_CASE"]
+            },
+            {
+                "selector": ["typeLike", "enumMember"],
+                "format": ["PascalCase"]
+            }
+        ],
+        "@typescript-eslint/no-empty-function": [
+            "warn",
+            {
+                "allow": ["constructors"]
+            }
+        ],
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-inferrable-types": "warn",
+        "@typescript-eslint/no-use-before-define": "error",
+        "@typescript-eslint/prefer-optional-chain": "warn"
+    }
+}
