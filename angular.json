@@ -31,8 +31,12 @@
                                 "output": "/assets"
                             }
                         ],
-                        "styles": ["src/styles.scss", "node_modules/highlight.js/styles/github-dark.css"],
-                        "scripts": []
+                        "styles": [
+                            "src/styles.scss",
+                            "node_modules/highlight.js/styles/github-dark.css",
+                            "node_modules/eva-icons/style/eva-icons.css"
+                        ],
+                        "scripts": ["node_modules/eva-icons/eva.js"]
                     },
                     "configurations": {
                         "production": {
@@ -93,8 +97,12 @@
                                 "output": "/assets"
                             }
                         ],
-                        "styles": ["src/styles.scss", "node_modules/highlight.js/styles/github-dark.css"],
-                        "scripts": []
+                        "styles": [
+                            "src/styles.scss",
+                            "node_modules/highlight.js/styles/github-dark.css",
+                            "node_modules/eva-icons/style/eva-icons.css"
+                        ],
+                        "scripts": ["node_modules/eva-icons/eva.js"]
                     }
                 }
             }
