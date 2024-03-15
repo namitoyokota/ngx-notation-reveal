@@ -31,7 +31,7 @@
                                 "output": "/assets"
                             }
                         ],
-                        "styles": ["src/styles.scss"],
+                        "styles": ["src/styles.scss", "node_modules/highlight.js/styles/github-dark.css"],
                         "scripts": []
                     },
                     "configurations": {
@@ -65,10 +65,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                          "buildTarget": "components:build:production"
+                            "buildTarget": "components:build:production"
                         },
                         "development": {
-                          "buildTarget": "components:build:development"
+                            "buildTarget": "components:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                      "buildTarget": "components:build"
+                        "buildTarget": "components:build"
                     }
                 },
                 "test": {
@@ -93,7 +93,7 @@
                                 "output": "/assets"
                             }
                         ],
-                        "styles": ["src/styles.scss"],
+                        "styles": ["src/styles.scss", "node_modules/highlight.js/styles/github-dark.css"],
                         "scripts": []
                     }
                 }

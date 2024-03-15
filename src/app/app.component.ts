@@ -10,4 +10,7 @@ export class AppComponent {
     readonly underline = NotationConfigs.underline;
     readonly circle = NotationConfigs.circle;
     readonly box = NotationConfigs.box;
+
+    readonly javascript = `console.log('hello world!')`;
+    readonly html = `<h1>Hello world!</h1>`;
 }
