@@ -1,15 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NotationRevealModule } from 'ngx-notation-reveal';
-
-import { AppComponent } from './app.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HIGHLIGHT_OPTIONS, HighlightModule, HighlightOptions } from 'ngx-highlightjs';
+import { NotationRevealModule } from 'ngx-notation-reveal';
+import { AppComponent } from './app.component';
 import { SnippetComponent } from './snippet/snippet.component';
 
 @NgModule({
     declarations: [AppComponent, SnippetComponent],
-    imports: [BrowserModule, NotationRevealModule, HighlightModule],
+    imports: [BrowserModule, BrowserAnimationsModule, NotationRevealModule, HighlightModule],
     providers: [
         {
             provide: HIGHLIGHT_OPTIONS,

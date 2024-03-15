@@ -3,7 +3,7 @@
 
 <!-- Copy to Clipboard -->
 <div class="clipboard-container">
-    <span *ngIf="copied" class="copied-text">Copied!</span>
+    <span *ngIf="copied" class="copied-text" [@fadeInOnEnter] [@fadeOutOnLeave]>Copied!</span>
     <button class="copy-button" title="Copy snippet to clipboard." (click)="copyToClipboard()">
         <i class="eva eva-clipboard-outline"></i>
     </button>

@@ -2318,6 +2318,13 @@ ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+angular-animations@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/angular-animations/-/angular-animations-0.11.0.tgz#1c36cad9e280c0d9b4ad5fe61a1ddeee517a6a6e"
+  integrity sha512-P2RuOe+T97bhgGDLtOYK9V45QA5y+kFUxoJfRAua8Ymo0bI5lWyw8oiVmBoEIZUU+nooYoJvQXgVKuZJA7/z3g==
+  dependencies:
+    tslib "^2.0.0"
+
 ansi-colors@4.1.3, ansi-colors@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"

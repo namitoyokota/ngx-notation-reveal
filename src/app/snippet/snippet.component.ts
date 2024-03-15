@@ -1,9 +1,11 @@
 import { Component, Input } from '@angular/core';
+import { fadeInOnEnterAnimation, fadeOutOnLeaveAnimation } from 'angular-animations';
 
 @Component({
     selector: 'snippet',
     templateUrl: './snippet.component.html',
     styleUrls: ['./snippet.component.scss'],
+    animations: [fadeInOnEnterAnimation(), fadeOutOnLeaveAnimation()],
 })
 export class SnippetComponent {
     @Input() code = '';
