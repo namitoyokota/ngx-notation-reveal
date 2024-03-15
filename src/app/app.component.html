@@ -4,16 +4,5 @@
 <notation-reveal [config]="circle">circle</notation-reveal>
 <notation-reveal [config]="box">box</notation-reveal>
 
-<div class="snippet">
-    <pre><code [highlight]="javascript" [languages]="['typescript']"></code></pre>
-    <button class="copy-button" title="Copy snippet to clipboard.">
-        <i class="eva eva-clipboard-outline" width="30px"></i>
-    </button>
-</div>
-
-<div class="snippet">
-    <pre><code [highlight]="html" [languages]="['xml']"></code></pre>
-    <button class="copy-button" title="Copy snippet to clipboard.">
-        <i class="eva eva-clipboard-outline" width="30px"></i>
-    </button>
-</div>
+<snippet [code]="javascript" language="typescript"></snippet>
+<snippet [code]="html" language="xml"></snippet>

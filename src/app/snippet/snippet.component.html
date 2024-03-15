@@ -1,0 +1,10 @@
+<!-- Code -->
+<pre><code class="code-container" [highlight]="code" [languages]="[language]"></code></pre>
+
+<!-- Copy to Clipboard -->
+<div class="clipboard-container">
+    <span *ngIf="copied" class="copied-text">Copied!</span>
+    <button class="copy-button" title="Copy snippet to clipboard." (click)="copyToClipboard()">
+        <i class="eva eva-clipboard-outline"></i>
+    </button>
+</div>

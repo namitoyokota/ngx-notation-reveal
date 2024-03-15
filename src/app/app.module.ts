@@ -5,9 +5,10 @@ import { NotationRevealModule } from 'ngx-notation-reveal';
 import { AppComponent } from './app.component';
 
 import { HIGHLIGHT_OPTIONS, HighlightModule, HighlightOptions } from 'ngx-highlightjs';
+import { SnippetComponent } from './snippet/snippet.component';
 
 @NgModule({
-    declarations: [AppComponent],
+    declarations: [AppComponent, SnippetComponent],
     imports: [BrowserModule, NotationRevealModule, HighlightModule],
     providers: [
         {
