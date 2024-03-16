@@ -12,9 +12,7 @@
     top: 0.5em;
     right: 0.5em;
     z-index: 1;
-
     display: flex;
-    column-gap: 10px;
 }
 
 .copied-text {
@@ -32,7 +30,7 @@
 
     color: #fff;
     padding: 5px;
-    font-size: 18px;
+    font-size: 1.125rem;
     border: 1px solid #ffffff22;
     border-radius: 0.25rem;
     outline: none;
