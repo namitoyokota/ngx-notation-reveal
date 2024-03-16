@@ -11,7 +11,7 @@ export class AppComponent {
     readonly circle = NotationConfigs.circle;
     readonly box = NotationConfigs.box;
 
-    readonly javascript = `console.log('hello world!')`;
+    readonly javascript = `console.log('hello world!'); console.log('hello world!');`;
     readonly html = `<h1>Hello world!</h1>`;
 
     copied = false;

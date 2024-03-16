@@ -8,14 +8,20 @@ import { fadeInOnEnterAnimation, fadeOutOnLeaveAnimation } from 'angular-animati
     animations: [fadeInOnEnterAnimation(), fadeOutOnLeaveAnimation()],
 })
 export class SnippetComponent {
+    /** Code snippet to display */
     @Input() code = '';
 
+    /** Format of the code */
     @Input() language = '';
 
+    /** Whether copy button has been pressed */
     copied = false;
 
     constructor() {}
 
+    /**
+     * Copies code to the clipboard
+     */
     copyToClipboard(): void {
         navigator.clipboard.writeText(this.code);
         this.copied = true;
