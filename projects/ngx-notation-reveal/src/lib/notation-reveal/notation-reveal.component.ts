@@ -11,6 +11,9 @@ export class NotationRevealComponent implements AfterViewInit, OnDestroy {
     /** Annotation settings */
     @Input() config: RoughAnnotationConfig;
 
+    /** Highlight animation delay in milliseconds (default: 1000ms) */
+    @Input() delay = 1000;
+
     /** Element ref to annotate */
     @ViewChild('elementToAnnotate') elementToAnnotate: ElementRef;
 
@@ -29,7 +32,7 @@ export class NotationRevealComponent implements AfterViewInit, OnDestroy {
         this.annotation = annotate(this.elementToAnnotate.nativeElement, this.config);
 
         this.observer = new IntersectionObserver(([entry]) => {
-            entry.isIntersecting ? this.annotation.show() : this.annotation.hide();
+            setTimeout(() => (entry.isIntersecting ? this.annotation.show() : this.annotation.hide()), this.delay);
         });
 
         this.observer.observe(this.elementToAnnotate.nativeElement);
