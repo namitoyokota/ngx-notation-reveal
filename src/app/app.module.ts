@@ -17,6 +17,7 @@ import { SnippetComponent } from './snippet/snippet.component';
                 languages: {
                     typescript: () => import('highlight.js/lib/languages/typescript'),
                     xml: () => import('highlight.js/lib/languages/xml'),
+                    node: () => import('highlight.js/lib/languages/node-repl'),
                 },
             },
         },

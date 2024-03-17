@@ -11,8 +11,14 @@ export class AppComponent {
     readonly circle = NotationConfigs.circle;
     readonly box = NotationConfigs.box;
 
-    readonly javascript = `console.log('hello world!'); console.log('hello world!');`;
-    readonly html = `<h1>Hello world!</h1>`;
+    readonly html = `<notation-reveal [config]="underline" [reset]="false">
+    This sentence will be underlined.
+</notation-reveal>`;
+
+    readonly javascript = `readonly underline = {
+    type: 'underline',
+    color: '#F38181',
+} as RoughAnnotationConfig;;`;
 
     copied = false;
 
