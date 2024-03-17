@@ -22,5 +22,8 @@ export class AppModule {}`;
 </notation-reveal>`;
 
     /** Code snippet to use reset flag */
-    static reset = `<notation-reveal [config]="underline" [reset]="false"></notation-reveal>`;
+    static reset = `<notation-reveal [reset]="false"></notation-reveal>`;
+
+    /** Code snippet to override delay */
+    static delay = `<notation-reveal [delay]="5000"></notation-reveal>`;
 }
