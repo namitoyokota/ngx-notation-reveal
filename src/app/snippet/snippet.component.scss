@@ -42,4 +42,8 @@
         cursor: pointer;
         transform: scale(1.1);
     }
+
+    &:focus {
+        outline: -webkit-focus-ring-color auto 1px;
+    }
 }
