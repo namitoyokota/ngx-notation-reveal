@@ -1,4 +1,4 @@
-<h1 align="center"><img height="150" src="./src/assets/logo.png" /><br> Notation Reveal</h1>
+<h1 align="center"><img height="150" src="https://raw.githubusercontent.com/namitoyokota/ngx-notation-reveal/master/src/assets/logo.png" /><br> Notation Reveal</h1>
 
 <p align="center">
     <a href="https://github.com/namitoyokota/ngx-notation-reveal/blob/master/LICENSE">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-    Notation Reveal is an Angular component to add the Rough Notation animation when element scrolls into view.
+    <b>Notation Reveal</b> is an Angular component to add the Rough Notation animation when element scrolls into view.
 </p>
 
 ## Demo
