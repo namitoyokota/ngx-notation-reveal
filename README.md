@@ -16,8 +16,6 @@
     Notation Reveal is an Angular component to add the Rough Notation animation when element scrolls into view.
 </p>
 
-<br />
-
 ## Demo
 
 View live demo [here](https://notation-reveal.namitoyokota.com/)!
@@ -29,6 +27,8 @@ Install using a package manager:
 ```shell
 npm i ngx-notation-reveal
 ```
+
+or
 
 ```shell
 yarn add ngx-notation-reveal
@@ -75,8 +75,6 @@ Delay, set to 1000 milliseconds (1 second) by default, can also be overridden.
 ```html
 <notation-reveal [delay]="5000"></notation-reveal>
 ```
-
-<br>
 
 ## License
 
