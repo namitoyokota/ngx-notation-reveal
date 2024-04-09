@@ -1,6 +1,6 @@
 {
     "name": "ngx-notation-reveal",
-    "version": "0.0.8",
+    "version": "1.0.0",
     "description": "Angular component to add rough notation when element is visible.",
     "author": {
         "name": "Namito Yokota",
