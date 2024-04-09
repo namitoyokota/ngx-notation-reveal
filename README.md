@@ -18,7 +18,9 @@
 
 ## Demo
 
-View a [live demo](https://notation-reveal.namitoyokota.com/) or [CodeSandbox](https://codesandbox.io/p/devbox/ngx-notation-reveal-demo-mf875r)!
+![Demo Gif](https://raw.githubusercontent.com/namitoyokota/ngx-notation-reveal/master/src/assets/demo.gif)
+
+View the [live demo](https://notation-reveal.namitoyokota.com/) or [CodeSandbox](https://codesandbox.io/p/devbox/ngx-notation-reveal-demo-mf875r)!
 
 ## Installation
 
