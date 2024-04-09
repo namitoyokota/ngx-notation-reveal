@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcomponents=self.webpackChunkcomponents||[]).push([[893],{893:(a,n,e)=>{function s(t){return{name:"Node REPL",contains:[{className:"meta.prompt",starts:{end:/ |$/,starts:{end:"$",subLanguage:"javascript"}},variants:[{begin:/^>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}e.r(n),e.d(n,{default:()=>s})}}]);
