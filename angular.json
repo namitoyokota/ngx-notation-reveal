@@ -47,7 +47,7 @@
                                     "maximumError": "1mb"
                                 },
                                 {
-                                    "type": "anytestbedtyle",
+                                    "type": "anyComponentStyle",
                                     "maximumWarning": "2kb",
                                     "maximumError": "4kb"
                                 }
