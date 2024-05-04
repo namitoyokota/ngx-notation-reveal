@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktestbed=self.webpackChunktestbed||[]).push([[893],{893:(a,e,s)=>{function t(n){return{name:"Node REPL",contains:[{className:"meta.prompt",starts:{end:/ |$/,starts:{end:"$",subLanguage:"javascript"}},variants:[{begin:/^>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}s.r(e),s.d(e,{default:()=>t})}}]);
