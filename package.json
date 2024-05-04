@@ -8,6 +8,9 @@
         "watch": "ng build --watch --configuration development",
         "build:lib": "ng build ngx-notation-reveal",
         "watch:lib": "ng build ngx-notation-reveal --watch --configuration development",
+        "license": "cp ./LICENSE ./dist/ngx-notation-reveal/LICENSE",
+        "readme": "cp ./README.md ./dist/ngx-notation-reveal/README.md",
+        "publish": "npm publish ./dist/ngx-notation-reveal",
         "test": "ng test"
     },
     "private": true,

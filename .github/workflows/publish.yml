@@ -37,6 +37,14 @@ jobs:
               if: steps.check.outputs.changed == 'true'
               run: yarn build:lib
 
+            - name: Copy Readme
+              if: steps.check.outputs.changed == 'true'
+              run: yarn readme
+
+            - name: Copy License
+              if: steps.check.outputs.changed == 'true'
+              run: yarn license
+
             - name: Publish to NPM
               if: steps.check.outputs.changed == 'true'
               run: npm publish ./dist/ngx-notation-reveal
