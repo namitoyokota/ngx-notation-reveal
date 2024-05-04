@@ -1,4 +1,4 @@
-import { RoughAnnotationConfig } from 'rough-notation/lib/model';
+import { RoughAnnotationConfig } from 'ngx-notation-reveal';
 
 /**
  * Configurations used for the demo section

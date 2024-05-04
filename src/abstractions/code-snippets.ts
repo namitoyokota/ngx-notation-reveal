@@ -11,7 +11,9 @@ export class CodeSnippets {
 export class AppModule {}`;
 
     /** Code snippet to set component config input */
-    static config = `readonly underline = {
+    static config = `import { RoughAnnotationConfig } from 'ngx-notation-reveal';
+    
+readonly underline = {
     type: 'underline',
     color: '#F38181',
 } as RoughAnnotationConfig;`;

@@ -1,6 +1,6 @@
 {
     "name": "ngx-notation-reveal",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Angular component to add rough notation when element is visible.",
     "author": {
         "name": "Namito Yokota",
@@ -10,12 +10,12 @@
         "type": "git",
         "url": "https://github.com/namitoyokota/ngx-notation-reveal"
     },
-    "peerDependencies": {
+    "peerDependencies": {},
+    "dependencies": {
         "@angular/common": "^17.3.0",
         "@angular/core": "^17.3.0",
-        "rough-notation": "^0.5.1"
-    },
-    "dependencies": {
+        "rough-notation": "^0.5.1",
+        "rxjs": "~7.8.0",
         "tslib": "^2.3.0"
     },
     "sideEffects": false
