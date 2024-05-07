@@ -52,6 +52,8 @@ export class AppModule {}
 Next, set up a config property. You can read all annotation types on Rough Notation's official documentation.
 
 ```typescript
+import { RoughAnnotationConfig } from 'ngx-notation-reveal';
+
 readonly underline = {
     type: 'underline',
     color: '#F38181',
