@@ -3434,6 +3434,13 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==
 
+eslint-plugin-prettier@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.2.1.tgz#651cbb88b1dab98bfd42f017a12fa6b2d993f94b"
+  integrity sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
+
 eslint-scope@5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-5.1.1.tgz#e786e59a66cb92b3f6c1fb0d508aab174848f48c"
@@ -3569,6 +3576,11 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
+
+fast-diff@^1.1.2:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.3.0.tgz#ece407fa550a64d638536cd727e129c61616e0f0"
+  integrity sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==
 
 fast-glob@3.3.2, fast-glob@^3.2.11, fast-glob@^3.3.0, fast-glob@^3.3.1:
   version "3.3.2"
@@ -3894,7 +3906,7 @@ hasown@^2.0.0:
   dependencies:
     function-bind "^1.1.2"
 
-highlight.js@^11.8.0:
+highlight.js@^11.9.0:
   version "11.9.0"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.9.0.tgz#04ab9ee43b52a41a047432c8103e2158a1b8b5b0"
   integrity sha512-fJ7cW7fQGCYAkgv4CPfwFHrfd/cLS4Hau96JuJ+ZTOWhjnhoeN1ub1tFmALm/+lW5z4WCAuAV9bm05AP0mS6Gw==
@@ -4945,27 +4957,27 @@ ng-packagr@^17.3.0:
     esbuild "^0.20.0"
     rollup "^4.5.0"
 
-ngx-code-snippet@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/ngx-code-snippet/-/ngx-code-snippet-0.0.5.tgz#c2a13d16313c80ebe7f8c48f379507e561a6cca2"
-  integrity sha512-pZPnbPK5a2QYF9yOoBtd8TBwFVjYAymu/WcGOR4OyuV208neiRbYTIw6UAnxb/miqkIiUwIg8Q3crsMa2ECiEw==
+ngx-code-snippet@17.0.2:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/ngx-code-snippet/-/ngx-code-snippet-17.0.2.tgz#4088f8bbefc57dac284c1c023fed35c6687f8b20"
+  integrity sha512-iGH1C5fF23Y+bVnT3Mf/vPw8nsihLJRCPW1gscnLpBCll7/YaJc8hry1x/1a/Z1xUIy/0zazsq0ehkyyLyisXw==
   dependencies:
     "@angular/animations" "^17.3.0"
     "@angular/common" "^17.3.0"
     "@angular/core" "^17.3.0"
     angular-animations "^0.11.0"
     eva-icons "^1.1.3"
-    ngx-highlightjs "^10.0.0"
+    highlight.js "^11.9.0"
+    ngx-highlightjs "^11.0.0-beta.1"
     rxjs "~7.8.0"
     tslib "^2.3.0"
 
-ngx-highlightjs@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/ngx-highlightjs/-/ngx-highlightjs-10.0.0.tgz#e28cdc652e6396c5d99e691354989b20fe72c1d7"
-  integrity sha512-F5VXB6vnpiTPMADUoCEkyc2wnqpKUNvfeAP4tO//NrwdQP2sQK6MfPg+jHL2adoJE5LIchsJlpq6C0r+KmlOSA==
+ngx-highlightjs@^11.0.0-beta.1:
+  version "11.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/ngx-highlightjs/-/ngx-highlightjs-11.0.0-beta.1.tgz#9ca3c8ee192503a061a5f90b2e412925e727f7e3"
+  integrity sha512-E12F48CXrHay9SvgEMcFNrtqb5xFbp/lSEtuwgd+YyreFI83wtPP8Hwzx3VDmf7E8b6XBPADbpd0QVHcgceYzg==
   dependencies:
-    highlight.js "^11.8.0"
-    tslib "^2.0.0"
+    tslib "^2.3.0"
 
 ngx-notation-reveal@latest:
   version "1.0.2"
@@ -5494,6 +5506,18 @@ postcss@^8.2.14, postcss@^8.4.23, postcss@^8.4.31, postcss@^8.4.33, postcss@^8.4
     nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.2.0"
+
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
+  dependencies:
+    fast-diff "^1.1.2"
+
+prettier@2.8.7:
+  version "2.8.7"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
+  integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
 
 proc-log@^3.0.0:
   version "3.0.0"
