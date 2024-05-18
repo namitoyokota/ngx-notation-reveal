@@ -49,7 +49,7 @@
 
         <span>
             Next, set up a
-            <a href="https://github.com/rough-stuff/rough-notation/blob/master/src/model.ts#L17" target="_blank">config</a>
+            <a href="https://github.com/rough-stuff/rough-notation?tab=readme-ov-file#configuring-the-annotation" target="_blank">config</a>
             property. You can read all annotation types on
             <a href="https://roughnotation.com/" target="_blank">Rough Notation's official documentation</a>.
         </span>
@@ -60,15 +60,52 @@
     </div>
 </section>
 
-<!-- Directives -->
 <section>
-    <h2>Directives</h2>
+    <h2>API</h2>
     <div class="content-pane">
-        <span>Optionally, override the <b>reset</b> flag to avoid re-animations.</span>
-        <code-snippet [code]="snippets.reset" language="xml"></code-snippet>
-
-        <span><b>Delay</b>, set to 1000 milliseconds (1 second) by default, can also be overridden.</span>
-        <code-snippet [code]="snippets.delay" language="xml"></code-snippet>
+        <span>This readonly component takes in the following properties as inputs:</span>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="name">config</span>
+                    </td>
+                    <td>
+                        <span class="type">RoughAnnotationConfig</span>
+                    </td>
+                    <td></td>
+                    <td>Styling of the annotation.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="name">reset</span>
+                    </td>
+                    <td>
+                        <span class="type">boolean</span>
+                    </td>
+                    <td>true</td>
+                    <td>Whether to re-animate annotation each time element enters viewport.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="name">delay</span>
+                    </td>
+                    <td>
+                        <span class="type">number</span>
+                    </td>
+                    <td>1000</td>
+                    <td>Time before animation after element enters viewport (in ms).</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </section>
 

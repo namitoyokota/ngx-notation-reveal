@@ -58,6 +58,17 @@ p {
     color: grey;
 }
 
+table {
+    border-collapse: collapse;
+
+    th,
+    td {
+        text-align: left;
+        border-bottom: 1px solid #e1e1e1;
+        padding: 10px;
+    }
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
