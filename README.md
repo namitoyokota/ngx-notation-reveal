@@ -66,19 +66,15 @@ Lastly, add component in the HTML.
 <notation-reveal [config]="underline">This sentence will be underlined.</notation-reveal>
 ```
 
-## Directives
+## API
 
-Optionally, override the reset flag to avoid re-animations.
+This readonly component takes in the following properties as inputs:
 
-```html
-<notation-reveal [reset]="false"></notation-reveal>
-```
-
-Delay, set to 1000 milliseconds (1 second) by default, can also be overridden.
-
-```html
-<notation-reveal [delay]="5000"></notation-reveal>
-```
+| Name     | Type                                                                                                                 | Default | Description                                                         |
+| -------- | -------------------------------------------------------------------------------------------------------------------- | ------- | ------------------------------------------------------------------- |
+| `config` | [RoughAnnotationConfig](https://github.com/rough-stuff/rough-notation?tab=readme-ov-file#configuring-the-annotation) |         | Styling of the annotation.                                          |
+| `reset`  | boolean                                                                                                              | true    | Whether to re-animate annotation each time element enters viewport. |
+| `delay`  | number                                                                                                               | 1000    | Time before animation after element enters viewport (in ms).        |
 
 ## License
 
